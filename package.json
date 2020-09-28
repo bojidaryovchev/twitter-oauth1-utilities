@@ -1,0 +1,22 @@
+{
+  "name": "twitter-oauth1-utilities",
+  "version": "1.0.0",
+  "description": "NodeJS twitter create signature, authenticate request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojidaryovchev/twitter-oauth1-utilities.git"
+  },
+  "author": "bojidaryovchev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bojidaryovchev/twitter-oauth1-utilities/issues"
+  },
+  "homepage": "https://github.com/bojidaryovchev/twitter-oauth1-utilities#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
