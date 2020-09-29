@@ -65,7 +65,7 @@ function generateOAuthHeader({
 }) {
   const oauth_signature = decodeURIComponent(
     encodeRFC3986(
-      createTwitterSignature({
+      generateSignature({
         method,
         url,
         body,
